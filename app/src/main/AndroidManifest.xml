@@ -5,9 +5,7 @@
  tells Google Play that the application can be installed on devices with API 19 and higher
         If using Gradle build files, the minSdkVersion setting in the build file overrides the manifest settings
     -->
-    <uses-sdk
-        android:minSdkVersion="19"
-        android:targetSdkVersion="24" />
+    <uses-sdk android:targetSdkVersion="24" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- Be able to use ConnectivityManager and NetworkInfo from Utility class -->

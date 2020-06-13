@@ -6,7 +6,7 @@ package com.example.marcus.groupon_one.Config;
 public class DatabaseVariable
 {
     //public static final String HOST_DOMAIN = "http://192.168.0.222";
-    public static final String HOST_DOMAIN = "http://192.168.86.250:81";
+    public static final String HOST_DOMAIN = "http://ubuntu-server.local:8088";
     public static final String PATH = "/android/groupon_slim_api_version";
     public static final String ROOT_PATH = HOST_DOMAIN + PATH;
     public static final String ROOT_PATH_VERSION = ROOT_PATH + "/v1";
